@@ -1,0 +1,36 @@
+ls list of files
+
+cd change directory
+
+cat create a multiple files 
+
+cat f1, f2, f3, f4,
+
+mkdir  make directory
+
+vim file name  edit file content 
+
+#!bin bash/
+
+enter the file name 
+
+to save the file 
+
+:wq! click enter
+
+chmod file name 755
+
+user complete permissions 
+
+7 user full
+
+the first digit represents permission for the owner
+
+the second digits permissions for the group
+
+the third digit represents permissions for others (every one else)
+
+4 stands for read permisssions 
+2 stands for wrie permissions 
+1 stand for excute permissions
+
