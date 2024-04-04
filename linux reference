@@ -34,3 +34,5 @@ the third digit represents permissions for others (every one else)
 2 stands for wrie permissions 
 1 stand for excute permissions
 
+rm-rmdir
+
