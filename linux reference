@@ -36,3 +36,21 @@ the third digit represents permissions for others (every one else)
 
 rm-rmdir
 
+pwd is used to current working directory
+
+vim sample shell script.sh
+
+#!/bin/bash
+
+# create a folder  (Hastag is used to read the quote but it doenot execute the file)
+mkdir yaswonth
+
+#  create two files 
+cd abhishek
+# create a file 
+touch my shellscript.sh
+
+
+
+
+
