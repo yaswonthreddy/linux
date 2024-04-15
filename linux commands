@@ -57,3 +57,20 @@ sudo apt list | grep -i [package_name]	To locate the particular application from
 sudo apt install [package_name]		To install
 sudo apt remove [package_name]		To uninstall the application
 sudo apt autoremove			To remove current and previous versions of the							application
+
+
+
+
+
+Miscellaneous Helping commands
+
+$ vi <filename> — Open or edit a file.
+i — Switch to Insert mode.
+Esc — Switch to Command mode.
+:w — Save and continue editing.
+:wq or ZZ — Save and quit/exit vi.
+:q! — Quit vi and do not save changes.
+yy — Yank (copy) a line of text.
+p — Paste a line of yanked text below the current line.
+
+
