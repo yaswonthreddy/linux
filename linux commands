@@ -4,7 +4,8 @@ pwd			To check present working directory
 cd			To Change directory   Eg: cd Desktop
 cd/			It takes to root directory
 clear			To clear
-nano			To create and add text content in  a file    
+nano			To create and add text content in  a file  
+vim                     This command is used to write and execute in file.
 touch			Will create a file but not able to add content in it
 ctrl x shift y Enter	To save text content in nano command
 cat			To view a file 
