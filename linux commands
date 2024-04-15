@@ -1,0 +1,58 @@
+Basic Commands:
+ls			To list all the files in the folders (To check the surrounding..)
+pwd			To check present working directory
+cd			To Change directory   Eg: cd Desktop
+cd/			It takes to root directory
+clear			To clear
+nano			To create and add text content in  a file    
+touch			Will create a file but not able to add content in it
+ctrl x shift y Enter	To save text content in nano command
+cat			To view a file 
+rm			To delete a file
+mkdir			To create a directory 
+rmdir			To delete a directory (or) rm -R [directory name]
+cd ..			To navigate to previous directory
+cp			Copy		syntax: cp [file_name] [Directory_name]/
+mv			Move		syntax: mv [file_name] [Directory_name]/
+ls -l			To check permissions
+chmod		To change permissions 	syntax:chmod 777 [file/directory name]
+			777 represents permission to [user,group,others]
+			R=read access(4) ; W=write access(2) ; X=Executable access(1)
+chown			To change Ownership		syntax:sudo chown [new ldap] filename	
+			[Ask for old ldap password]
+R,W,X Overview:
+We have three phases : 
+User - a owner
+Group- collection of users
+Others - who does not belongs to user and group
+Read & write & execute
+
+ r-READ
+ w-WRITE
+ x-EXECUTE
+
+ls -l    to check rwx access entities  (user group others)  to know the permissions
+
+d indicates directory
+
+R 2^2 =4
+W 2^1 =2
+X 2^0 =1
+
+0 - no permissions
+1 - execute
+2 - write
+3 - execute+write
+4 - read
+5 - read+execute
+6 - read+write
+7 - r+w+x
+
+—-----------------------------------------------------------------------------------------------------------------------
+
+
+sudo apt list					To list all the applications in the repository
+sudo apt list | grep -i [package_name]	To locate the particular application from the    							repository
+sudo apt install [package_name]		To install
+sudo apt remove [package_name]		To uninstall the application
+sudo apt autoremove			To remove current and previous versions of the							application
